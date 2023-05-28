@@ -8,5 +8,8 @@ from django.http.response import JsonResponse
 @csrf_exempt
 def helloworld(request):
           return JsonResponse("Messege:Hello world :)" ,safe=False)
+
+def helloApis(request):
+          return JsonResponse("Messege:Hello API :) ! :)" ,safe=False)
                     
           

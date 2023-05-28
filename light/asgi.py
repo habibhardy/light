@@ -15,4 +15,4 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'light.settings')
 
 application = get_asgi_application()
 
-app = application
+
